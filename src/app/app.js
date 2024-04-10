@@ -5,7 +5,7 @@ const globalErrorHandler = require('../middlewares/global-error-handler');
 const notFoundErrorHandler = require('../middlewares/not-found-handler');
 const app = express();
 
-// === Middlewares ===
+// === Middlewares === 
 app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());

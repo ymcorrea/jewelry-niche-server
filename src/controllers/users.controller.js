@@ -9,7 +9,7 @@ exports.getAllUser = async (req, res) => {
   const usersCollection = db.collection("users");
   const cursor = await usersCollection.find({}).toArray();
   res.send(cursor);
-}
+} 
 
 // @desc Add new user to the database
 // @route POST /users/

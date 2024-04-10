@@ -8,7 +8,7 @@ exports.getAllJewelry = async (req, res) => {
   const db = getDatabase();
   const jewelryCollection = db.collection("jewelry");
   const jewelry = await jewelryCollection.find({}).toArray();
-  res.status(200).send(jewelry);
+  res.status(200).send(jewelry); 
 }
 
 // @desc Add a new jewelry product to database

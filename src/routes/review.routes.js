@@ -7,4 +7,4 @@ router.get('/', getAllReview);
 
 router.post('/', addNewReview);
 
-module.exports = router;
+module.exports = router; 

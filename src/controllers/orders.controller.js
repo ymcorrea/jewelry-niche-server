@@ -8,7 +8,7 @@ exports.getAllOrder = async (req, res) => {
   const db = getDatabase();
   const ordersCollection = db.collection("orders");
   const cursor = await ordersCollection.find({}).toArray();
-  res.send(cursor);
+  res.send(cursor); 
 }
 
 // @desc Find orders by email address

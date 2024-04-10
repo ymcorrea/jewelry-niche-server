@@ -11,4 +11,4 @@ const server = http.createServer(app);
 server.listen(PORT, () => {
   connectToDatabase();
   console.log("Server is listening on port " + PORT)
-});
+}); 

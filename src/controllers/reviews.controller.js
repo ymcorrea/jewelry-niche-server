@@ -9,7 +9,7 @@ exports.getAllReview = async (req, res) => {
   const db = getDatabase();
   const reviewCollection = db.collection("review");
   const result = await reviewCollection.find({}).toArray();
-  res.send(result);
+  res.send(result); 
 }
 
 // @desc Add new review to database collection

@@ -11,7 +11,7 @@ const globalErrorHandler = (err, req, res, next) => {
     statusCode,
     status,
     message
-    })
+    }) 
 }
 
 // Export the globalErrorHandler function to be used by other parts of the application.

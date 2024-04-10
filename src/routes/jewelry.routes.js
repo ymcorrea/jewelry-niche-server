@@ -7,3 +7,4 @@ router.post('/', addJewelry);
 router.get('/:id', getJewelryById);
 
 module.exports = router;
+ 

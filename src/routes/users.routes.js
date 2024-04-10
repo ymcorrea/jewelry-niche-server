@@ -9,4 +9,4 @@ router.put('/', updateUser);
 router.put('/admin', makeUserAdmin);
 router.get('/:email', checkAdminByEmail);
 
-module.exports = router;
+module.exports = router; 
